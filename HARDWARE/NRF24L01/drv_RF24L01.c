@@ -19,7 +19,7 @@
 
 
 const char *g_ErrorString = "RF24L01 is not find !...";
-const char *g_ConnectedString = "RF24L01 has been connected !...";
+//const char *g_ConnectedString = "RF24L01 has been connected !...";
 
 
 /**
@@ -463,21 +463,19 @@ void NRF24L01_check( void )
 		{
 			if( buf[ i ] != read_buf[ i ] )
 			{
-				drv_uart_tx_bytes( (uint8_t *)g_ConnectedString, 31 );
 				break;
 			}	
 		} 
 		
 		if( 5 == i )
 		{
-			drv_uart_tx_bytes( (uint8_t *)g_ConnectedString, 31 );
 			break;
 		}
 		else
 		{
-				drv_uart_tx_bytes( (uint8_t *)g_ErrorString, 26 );
+			printf( "%s", (uint8_t *)g_ErrorString );
 		}
-		delay_ms( 2000 );
+		delay_xms( 2000 );
 	}
 }
 
@@ -533,7 +531,7 @@ uint8_t NRF24L01_TxPacket( uint8_t *txbuf, uint8_t Length )
 	RF24L01_SET_CE_HIGH( );			//启动发送
 	while( 0 != RF24L01_GET_IRQ_STATUS( ))
 	{
-		delay_ms( 1 );
+		delay_xms( 1 );
 		if( 500 == l_MsTimes++ )						//500ms还没有发送成功，重新初始化设备
 		{
 			NRF24L01_GPIO_Init( );
@@ -575,7 +573,7 @@ uint8_t NRF24L01_RxPacket( uint8_t *rxbuf )
 	
 	while( 0 != RF24L01_GET_IRQ_STATUS( ))
 	{
-		delay_ms( 100 );
+		delay_xms( 100 );
 		
 		if( 30 == l_100MsTimes++ )		//3s没接收过数据，重新初始化模块
 		{

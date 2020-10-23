@@ -1,5 +1,5 @@
 Dependencies for Project 'FreeRTOS', Target 'FreeRTOS': (DO NOT MODIFY !)
-F (.\main.c)(0x5F8EBE4E)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5F914B8D)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (main.h)(0x5F8C31E3)
 I (..\HARDWARE\NRF24L01\drv_RF24L01.h)(0x5F8C44A9)
 I (..\APP\SPI\drv_spi.h)(0x5F8C31E3)
@@ -32,7 +32,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\USER\main.h)(0x5F8C31E3)
-I (..\HARDWARE\key\drv_key.h)(0x5F8C44A9)
+I (..\HARDWARE\key\drv_key.h)(0x5F914B8D)
 I (..\SYSTEM\sys\sys.h)(0x583BA68A)
 I (..\SYSTEM\delay\delay.h)(0x583BAA09)
 I (..\HARDWARE\LED\drv_led.h)(0x5F8C44A9)
@@ -48,7 +48,7 @@ I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
 I (..\FreeRTOS\include\mpu_wrappers.h)(0x5CD62451)
 I (..\FreeRTOS\include\task.h)(0x5CD62451)
 I (..\FreeRTOS\include\list.h)(0x5CD62451)
-I (Mytask.h)(0x5F8EBEBC)
+I (Mytask.h)(0x5F8ED29E)
 F (.\stm32f10x_it.c)(0x583BA648)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x4D99A426)
 I (stm32f10x.h)(0x4D783CB4)
@@ -110,9 +110,9 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (.\Mytask.c)(0x5F8EBF71)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mytask.o --omf_browse ..\obj\mytask.crf --depend ..\obj\mytask.d)
-I (Mytask.h)(0x5F8EBEBC)
-I (taskconfig.h)(0x5F8EBEEE)
+F (.\Mytask.c)(0x5F918A47)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mytask.o --omf_browse ..\obj\mytask.crf --depend ..\obj\mytask.d)
+I (Mytask.h)(0x5F8ED29E)
+I (taskconfig.h)(0x5F918535)
 I (..\SYSTEM\sys\sys.h)(0x583BA68A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -154,16 +154,17 @@ I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
 I (..\FreeRTOS\include\mpu_wrappers.h)(0x5CD62451)
 I (..\FreeRTOS\include\task.h)(0x5CD62451)
 I (..\FreeRTOS\include\list.h)(0x5CD62451)
+I (..\FreeRTOS\include\queue.h)(0x5CD62451)
 I (..\HARDWARE\LED\drv_led.h)(0x5F8C44A9)
-I (..\HARDWARE\key\drv_key.h)(0x5F8C44A9)
-I (..\HARDWARE\OLED_1.3\drv_oled.h)(0x5F8C44A9)
+I (..\HARDWARE\key\drv_key.h)(0x5F914B8D)
+I (..\HARDWARE\OLED_1.3\drv_oled.h)(0x5F9187A0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 I (..\HARDWARE\NRF24L01\drv_RF24L01.h)(0x5F8C44A9)
 I (..\APP\SPI\drv_spi.h)(0x5F8C31E3)
 I (..\USER\main.h)(0x5F8C31E3)
 I (..\SYSTEM\delay\delay.h)(0x583BAA09)
-F (..\HARDWARE\OLED_1.3\drv_oled.c)(0x5F8D8B68)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\drv_oled.o --omf_browse ..\obj\drv_oled.crf --depend ..\obj\drv_oled.d)
-I (..\HARDWARE\OLED_1.3\drv_oled.h)(0x5F8C44A9)
+F (..\HARDWARE\OLED_1.3\drv_oled.c)(0x5F902D15)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\drv_oled.o --omf_browse ..\obj\drv_oled.crf --depend ..\obj\drv_oled.d)
+I (..\HARDWARE\OLED_1.3\drv_oled.h)(0x5F9187A0)
 I (..\SYSTEM\sys\sys.h)(0x583BA68A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -227,8 +228,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\HARDWARE\key\drv_key.c)(0x5F8C44A9)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\drv_key.o --omf_browse ..\obj\drv_key.crf --depend ..\obj\drv_key.d)
-I (..\HARDWARE\key\drv_key.h)(0x5F8C44A9)
+F (..\HARDWARE\key\drv_key.c)(0x5F914CDE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\drv_key.o --omf_browse ..\obj\drv_key.crf --depend ..\obj\drv_key.d)
+I (..\HARDWARE\key\drv_key.h)(0x5F914B8D)
 I (..\SYSTEM\sys\sys.h)(0x583BA68A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -259,7 +260,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\SYSTEM\delay\delay.h)(0x583BAA09)
-F (..\HARDWARE\NRF24L01\drv_RF24L01.c)(0x5F8D8BA8)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\drv_rf24l01.o --omf_browse ..\obj\drv_rf24l01.crf --depend ..\obj\drv_rf24l01.d)
+F (..\HARDWARE\NRF24L01\drv_RF24L01.c)(0x5F917A1B)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\drv_rf24l01.o --omf_browse ..\obj\drv_rf24l01.crf --depend ..\obj\drv_rf24l01.d)
 I (..\HARDWARE\NRF24L01\drv_RF24L01.h)(0x5F8C44A9)
 I (..\APP\SPI\drv_spi.h)(0x5F8C31E3)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
@@ -291,13 +292,13 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\USER\main.h)(0x5F8C31E3)
-I (..\HARDWARE\key\drv_key.h)(0x5F8C44A9)
+I (..\HARDWARE\key\drv_key.h)(0x5F914B8D)
 I (..\SYSTEM\sys\sys.h)(0x583BA68A)
 I (..\SYSTEM\delay\delay.h)(0x583BAA09)
 I (..\HARDWARE\LED\drv_led.h)(0x5F8C44A9)
 I (..\SYSTEM\usart\usart.h)(0x5F8C3E76)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (..\HARDWARE\OLED_1.3\drv_oled.h)(0x5F8C44A9)
+I (..\HARDWARE\OLED_1.3\drv_oled.h)(0x5F9187A0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 F (..\APP\SPI\drv_spi.c)(0x5F8C31E3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\drv_spi.o --omf_browse ..\obj\drv_spi.crf --depend ..\obj\drv_spi.d)
 I (..\APP\SPI\drv_spi.h)(0x5F8C31E3)
@@ -331,7 +332,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\USER\main.h)(0x5F8C31E3)
 I (..\HARDWARE\NRF24L01\drv_RF24L01.h)(0x5F8C44A9)
-I (..\HARDWARE\key\drv_key.h)(0x5F8C44A9)
+I (..\HARDWARE\key\drv_key.h)(0x5F914B8D)
 I (..\SYSTEM\sys\sys.h)(0x583BA68A)
 I (..\SYSTEM\delay\delay.h)(0x583BAA09)
 I (..\HARDWARE\LED\drv_led.h)(0x5F8C44A9)
@@ -408,7 +409,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\SYSTEM\usart\usart.c)(0x5F8C3E56)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+F (..\SYSTEM\usart\usart.c)(0x5F918046)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
 I (..\SYSTEM\sys\sys.h)(0x583BA68A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)

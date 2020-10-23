@@ -43,6 +43,7 @@
 ..\obj\mytask.o: ..\FreeRTOS\include\mpu_wrappers.h
 ..\obj\mytask.o: ..\FreeRTOS\include\task.h
 ..\obj\mytask.o: ..\FreeRTOS\include\list.h
+..\obj\mytask.o: ..\FreeRTOS\include\queue.h
 ..\obj\mytask.o: ..\HARDWARE\LED\drv_led.h
 ..\obj\mytask.o: ..\HARDWARE\key\drv_key.h
 ..\obj\mytask.o: ..\HARDWARE\OLED_1.3\drv_oled.h

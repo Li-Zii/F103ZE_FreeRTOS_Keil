@@ -41,7 +41,7 @@ int main(void)
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);//设置系统中断优先级分组4	 全部用于抢占
 	delay_init();	    				//延时函数初始化	  
 	uart_init(115200);				//初始化串口
-						
+	
 	Create_StratTask();				//开始任务初始化
 }
 

@@ -374,7 +374,7 @@ void drv_OLED_Init(void)
 
 
  #endif
-delay_ms(200);
+delay_xms(200);
 
 OLED_WR_Byte(0xAE,OLED_CMD);//--display off
 	OLED_WR_Byte(0x02,OLED_CMD);//---set low column address

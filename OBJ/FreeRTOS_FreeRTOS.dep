@@ -112,7 +112,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 F (.\Mytask.c)(0x5F918A47)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\LED -I ..\HARDWARE\key -I ..\HARDWARE\OLED_1.3 -I ..\HARDWARE\NRF24L01 -I ..\APP\SPI-I.\RTE\_FreeRTOS-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mytask.o --omf_browse ..\obj\mytask.crf --depend ..\obj\mytask.d)
 I (Mytask.h)(0x5F8ED29E)
-I (taskconfig.h)(0x5F918535)
+I (taskconfig.h)(0x5F97EDEA)
 I (..\SYSTEM\sys\sys.h)(0x583BA68A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)

@@ -75,7 +75,7 @@ QueueHandle_t   Key_Queue;			//按键队列
 QueueHandle_t   Mode_Queue;		//消息队列
 
 #define			KEYMSG_Q_NUM	1
-#define			MODE_Q_NUM	4
+#define			MODE_Q_NUM	1
 
 #endif
 
